@@ -45,3 +45,10 @@ This makes it a reliable model for real-world fraud detection systems.
 - XGBoost
 - matplotlib, seaborn
 
+ ## Dataset
+
+The dataset is not included due to size constraints.
+You can download it from:
+Kaggle – Credit Card Fraud Detection
+
+
