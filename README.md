@@ -1,12 +1,12 @@
 # Credit Card Fraud Detection Project
 This project focuses on detecting fraudulent credit card transactions using supervised machine learning models. Due to the highly imbalanced nature of the dataset, resampling techniques and appropriate evaluation metrics were applied.
   Dataset
-- Source: Kaggle Credit Card Fraud Dataset
+- Source: [Kaggle – Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 - Transactions: 284,807
 - Fraud cases: 492
 - Features: Time, Amount, and PCA-transformed variables (V1–V28)
 
-  Methodology
+#  Methodology
 1. Data Cleaning and Preprocessing
 2. Feature Scaling (StandardScaler)
 3. Train-Test Split (70/30, stratified)
@@ -22,7 +22,7 @@ This project focuses on detecting fraudulent credit card transactions using supe
    - F1-score
    - ROC-AUC
 
- Results
+# Results
 
 | Model | Accuracy | Precision | Recall | F1 |
 |------|---------|-----------|--------|----|
@@ -32,12 +32,11 @@ This project focuses on detecting fraudulent credit card transactions using supe
 <img width="509" height="391" alt="image" src="https://github.com/user-attachments/assets/1854681f-e1dc-4594-9c17-66c4249705db" />
 
 
- Conclusion
- 
-Random Forest achieved the best performance, offering a strong balance between precision and recall.
+ # Conclusion
+ Random Forest achieved the best performance, offering a strong balance between precision and recall.
 This makes it a reliable model for real-world fraud detection systems.
 
- Technologies
+ # Technologies
 - Python
 - pandas, numpy
 - scikit-learn
