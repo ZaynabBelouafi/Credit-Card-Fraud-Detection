@@ -29,8 +29,11 @@ This project focuses on detecting fraudulent credit card transactions using supe
 | Logistic Regression | 97.7% | 6.3% | 87.8% | 0.12 |
 | Random Forest | **99.95%** | **89.9%** | 78.4% | **0.84** |
 | XGBoost | 99.6% | 28.1% | 83.8% | 0.42 |
+<img width="509" height="391" alt="image" src="https://github.com/user-attachments/assets/1854681f-e1dc-4594-9c17-66c4249705db" />
+
 
  Conclusion
+ 
 Random Forest achieved the best performance, offering a strong balance between precision and recall.
 This makes it a reliable model for real-world fraud detection systems.
 
